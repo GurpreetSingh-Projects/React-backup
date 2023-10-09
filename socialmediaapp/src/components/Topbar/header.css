@@ -1,1 +1,36 @@
-
+body{
+margin: 0px;
+border: 0;
+padding: 0;
+scroll-behavior: smooth;
+font-family: 'Roboto', sans-serif;
+}
+.headercontainer
+{
+    height: 50px;
+    width: 100%;
+    background-color: #4267B2;
+    display: flex;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.headerleft{
+flex: 3;
+}
+.logo{
+font-size: 35px;
+margin: 15px 15px 15px 15px;
+font-weight: bold;
+color: white;
+cursor: pointer;
+}
+.headermid{
+flex: 5;
+}
+.headerright{
+flex: 2;
+}
+.headerimage{
+    height: 200px;
+}
