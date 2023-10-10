@@ -59,7 +59,7 @@ body {
   margin-right: 10px;
   font-size: 14px;
   cursor: pointer;
-
+  display: flex;
 }
 .headerIcons {
   display: flex;
@@ -78,12 +78,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   font-size: 12px;
+  left: -10px;
+  top: -2px;
+  cursor: pointer;
 }
-.headerlink {
-  display: flex;
-  
+.headerlink div {
+  margin: 20px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .headerimage {
-  height: 20px;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  
+  top: -2px;
+  border-radius: 999999px;
+  object-fit: cover;
+  cursor: pointer;
 }
