@@ -1,7 +1,9 @@
 import "./rightbar.css"
 
-export default function rightbar() {
+export default function Rightbar() {
   return (
-    <rightbar/>
+      <div>
+          rb
+    </div>
   )
 }

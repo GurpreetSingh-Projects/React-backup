@@ -1,7 +1,7 @@
 import "./feed.css"
 
-export default function feed() {
-  return (
-    <feed/>
+export default function Feed() {
+    return (
+        <div>feed</div>
   )
 }
