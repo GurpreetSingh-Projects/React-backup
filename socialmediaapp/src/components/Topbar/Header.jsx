@@ -22,9 +22,9 @@ export default function Header() {
         </div>
       </div>
       <div className="headerright">
-        <div>
-          <div className="headerlink">Homepage</div>
-          <div className="headerlink">Timeline</div>
+        <div className="headerlink">
+          <div>Homepage</div>
+          <div>Timeline</div>
         </div>
         <div className="headerIcons">
           <div className="headericonitem"></div>
