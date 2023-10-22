@@ -1,6 +1,6 @@
 import RssFeed from "@mui/icons-material/RssFeed";
-import "./sidebar.css"
-import RssFeedIcon from "@mui/icons-material/RssFeed" ;
+import "./sidebar.css";
+import RssFeedIcon from "@mui/icons-material/RssFeed";
 import Chat from "@mui/icons-material/Chat";
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 import GroupIcon from "@mui/icons-material/Group";
@@ -48,8 +48,13 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <SchoolIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Courses</span>{" "}
+            <span className="sidebarListItemText">Courses</span>
           </li>
+        </ul>
+        <button className="sidebarButton">Show More</button>
+        <hr className="sidebarHr" />
+        <ul className="sidebarFriendList">
+          <li className=""></li>
         </ul>
       </div>
     </div>

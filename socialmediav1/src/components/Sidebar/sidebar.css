@@ -1,8 +1,23 @@
-.sidebar{
-    display: flex;
-    flex: 50%;
-    height: 100%;
+* {
+  margin: 0;
+  padding: 0;
 }
-.sidebarWrapper{
-    padding: 20px;
+.sidebar {
+  display: flex;
+  flex: 50%;
+  height: 100%;
+}
+.sidebarWrapper {
+  padding: 20px;
+}
+.sidebarList {
+  list-style: none;
+}
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sidebarIcon {
+    margin-right: 15px;
 }
