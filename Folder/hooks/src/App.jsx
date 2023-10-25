@@ -1,8 +1,8 @@
+import State from "./usestate"
 export default function App() {
-  
   return (
     <>
-      <div>App</div>
+      <State/>
     </>
   );
 }
