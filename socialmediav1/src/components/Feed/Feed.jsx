@@ -1,7 +1,12 @@
-import "./feed.css"
+import Shared from "../Shared/Shared.jsx";
+import "./feed.css";
 
 export default function Feed() {
-    return (
-        <div className="feed">feed</div>
-  )
+  return (
+    <div className="feed">
+      <div className="feedWrapper">
+        <Shared/>
+      </div>
+    </div>
+  );
 }
