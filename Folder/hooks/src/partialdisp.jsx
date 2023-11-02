@@ -1,14 +1,12 @@
+import {state, useState} from "react";
 export default function Partialdisp()
 {
-  const disp = "name";
+  const [name, setName] = useState("");
   return (
     <>
-      <div>
-        <label for="name" name="name">Hello</label>
-        <input type="text" name="id" /> 
-        <output>{disp}</output>
-        <button></button>
-      </div>
+      <h1>{name}</h1>
+      <input type="text"  />
+      <button onSubmit={() => setName("Roshan")}>Click me</button>
     </>
   );
 }
