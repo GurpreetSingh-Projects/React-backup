@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import "./calculator.css";
 
-export default function Calculator() {
+function App() {
   const inputRef = useRef(null);
   const resultRef = useRef(null);
   const [result, setResult] = useState(0);
@@ -12,9 +12,9 @@ export default function Calculator() {
   }
 
   function minus(e) {
-      // Add the code for the minus function
+    // Add the code for the minus function
     e.preventDefault();
-    setResult((result) => result + Number(inputRef.current.value));
+    setResult((result) => result - Number(inputRef.current.value));
   }
 
   function times(e) {
@@ -25,14 +25,20 @@ export default function Calculator() {
 
   function divide(e) {
     // Add the code for the divide function
+    e.preventDefault();
+    setResult((result) => result / Number(inputRef.current.value));
   }
 
   function resetInput(e) {
     // Add the code for the resetInput function
+    e.preventDefault();
+    inputRef.current.value = 0;
   }
 
   function resetResult(e) {
     // Add the code for the resetResult function
+    e.preventDefault();
+    setResult(0);
   }
 
   return (
@@ -41,7 +47,7 @@ export default function Calculator() {
         <h1>Simplest Working Calculator</h1>
       </div>
       <form>
-        <p ref={resultRef}>{result}</p>
+        <p>{result}</p>
         <input
           pattern="[0-9]"
           ref={inputRef}
@@ -49,13 +55,14 @@ export default function Calculator() {
           placeholder="Type a number"
         />
         <button onClick={plus}>add</button>
-        <button onclick={minus}>subtract</button>
-        <button onclick={times}>multiply</button>
-        <button onclick={divide}>divide</button>
-        <button onclick={resetInput}>Reset Input</button>
-        <button onclick={resetResult}>Reset Result</button>
+        <button onClick={minus}>subtract</button>
+        <button onClick={times}>multiply</button>
+        <button onClick={divide}>divide</button>
+        <button onClick={resetInput}>Reset Input</button>
+        <button onClick={resetResult}>Reset Result</button>
       </form>
     </div>
   );
 }
 
+export default App;
