@@ -1,4 +1,5 @@
 import Context from "./Context";
+import Bird from "./bird";
 import Partialdisp from "./partialdisp";
 import State from "./usestate"
 export default function App() {
@@ -6,7 +7,8 @@ export default function App() {
     <>
       <Context/>
       <State />
-      <Partialdisp/>
+      <Partialdisp />
+      <Bird/>
     </>
   );
 }
