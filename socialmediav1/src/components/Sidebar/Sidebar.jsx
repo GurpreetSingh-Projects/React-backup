@@ -1,56 +1,55 @@
 import "./sidebar.css";
 
 import {
-  RssFeed,
-  RssFeedIcon,
-  Chat,
-  PlayCircleFilledIcon,
-  GroupIcon,
-  BookmarksIcon,
-  HelpIcon,
-  WorkIcon,
-  EventIcon,
-  SchoolIcon,
-} from "@mui/icons-material";
+  MdRssFeed,
+  BsFillChatFill,
+  MdPlayCircleFilled,
+  BiGroup,
+  BsFillBookmarkFill,
+  BiHelpCircle,
+  MdWorkOutline,
+  BiCalendarEvent,
+  IoIosSchool,
+} from "react-icons/";
 export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
         <ul className="sidebarList">
           <li className="sidebarListItem">
-            <RssFeed className="sidebarIcon" />
+            <MdRssFeed className="sidebarIcon" />
             <span className="sidebarListItemText">Feed</span>
           </li>
           <li className="sidebarListItem">
-            <Chat className="sidebarIcon" />
+            <BsFillChatFill className="sidebarIcon" />
             <span className="sidebarListItemText">Chats</span>
           </li>
           <li className="sidebarListItem">
-            <PlayCircleFilledIcon className="sidebarIcon" />
+            <MdPlayCircleFilled className="sidebarIcon" />
             <span className="sidebarListItemText">Videos</span>
           </li>
           <li className="sidebarListItem">
-            <GroupIcon className="sidebarIcon" />
+            <BiGroup className="sidebarIcon" />
             <span className="sidebarListItemText">Groups</span>
           </li>
           <li className="sidebarListItem">
-            <BookmarksIcon className="sidebarIcon" />
+            <BsFillBookmarkFill className="sidebarIcon" />
             <span className="sidebarListItemText">Bookmarks</span>
           </li>
           <li className="sidebarListItem">
-            <HelpIcon className="sidebarIcon" />
+            <BiHelpCircle className="sidebarIcon" />
             <span className="sidebarListItemText">Questions</span>
           </li>
           <li className="sidebarListItem">
-            <WorkIcon className="sidebarIcon" />
+            <MdWorkOutline className="sidebarIcon" />
             <span className="sidebarListItemText">Jobs</span>
           </li>
           <li className="sidebarListItem">
-            <EventIcon className="sidebarIcon" />
+            <BiCalendarEvent className="sidebarIcon" />
             <span className="sidebarListItemText">Events</span>
           </li>
           <li className="sidebarListItem">
-            <SchoolIcon className="sidebarIcon" />
+            <IoIosSchool className="sidebarIcon" />
             <span className="sidebarListItemText">Courses</span>
           </li>
         </ul>

@@ -1,9 +1,10 @@
 import "./header.css";
-import { AiOutlineSearch, } from "react-icons/";
-import PersonIcon from "@mui/icons-material/Person";
-import ChatIcon from "@mui/icons-material/Chat";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-
+import {
+  AiOutlineSearch,
+  BsFillPersonFill,
+  BsFillChatLeftTextFill,
+  IoIosNotifications,
+} from "react-icons/";
 
 export default function Header() {
   return (
@@ -28,15 +29,15 @@ export default function Header() {
         </div>
         <div className="headerIcons">
           <div className="headericonitem"></div>
-          <PersonIcon />
+          <BsFillPersonFill />
           <div className="headericonbadge">1</div>
 
           <div className="headericonitem"></div>
-          <ChatIcon />
+          <BsFillChatLeftTextFill />
           <div className="headericonbadge">2</div>
 
           <div className="headericonitem"></div>
-          <NotificationsIcon />
+          <IoIosNotifications />
           <div className="headericonbadge">3</div>
         </div>
         <img src="assets/person/1.jpeg" alt="" className="headerimage" />
