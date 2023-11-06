@@ -1,5 +1,5 @@
 import "./header.css";
-import SearchIcon from "@mui/icons-material/Search";
+import { AiOutlineSearch, } from "react-icons/";
 import PersonIcon from "@mui/icons-material/Person";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <div className="headermid">
         <div className="searchbar">
-          <SearchIcon />
+          <AiOutlineSearch />
           <input
             type="text"
             placeholder="Search Social Media.."
@@ -32,16 +32,15 @@ export default function Header() {
           <div className="headericonbadge">1</div>
 
           <div className="headericonitem"></div>
-          <ChatIcon/>
+          <ChatIcon />
           <div className="headericonbadge">2</div>
 
           <div className="headericonitem"></div>
-          <NotificationsIcon/>
+          <NotificationsIcon />
           <div className="headericonbadge">3</div>
         </div>
         <img src="assets/person/1.jpeg" alt="" className="headerimage" />
       </div>
-      
     </div>
   );
 }

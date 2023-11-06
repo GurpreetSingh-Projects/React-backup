@@ -1,5 +1,5 @@
 import "./Shared.css";
-import PermMediaIcon from "./src/icons/material-symbols_perm-media-outline";
+import MovieIcon from "@mui/icons-material/Movie";
 export default function Shared() {
   return (
     <div className="share">
@@ -10,23 +10,23 @@ export default function Shared() {
         <hr className="shareHr" />
         <div className="shareBottom">
           <div className="shareOptions">
-            <PermMediaIcon className="shareIcon" />
+            <MovieIcon className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <PermMediaIcon className="shareIcon" />
+            <MovieIcon className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <PermMediaIcon className="shareIcon" />
+            <MovieIcon className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <PermMediaIcon className="shareIcon" />
+            <MovieIcon className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <PermMediaIcon className="shareIcon" />
+            <MovieIcon className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
         </div>
