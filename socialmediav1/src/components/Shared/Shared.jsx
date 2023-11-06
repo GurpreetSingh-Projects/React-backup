@@ -1,5 +1,5 @@
 import "./Shared.css";
-import MovieIcon from "@mui/icons-material/Movie";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Shared() {
   return (
     <div className="share">
@@ -10,23 +10,23 @@ export default function Shared() {
         <hr className="shareHr" />
         <div className="shareBottom">
           <div className="shareOptions">
-            <MovieIcon className="shareIcon" />
+            <FontAwesomeIcon icon="fa-solid fa-clapperboard"  className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <MovieIcon className="shareIcon" />
+            <FontAwesomeIcon icon="fa-solid fa-clapperboard"  className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <MovieIcon className="shareIcon" />
+            <FontAwesomeIcon icon="fa-solid fa-clapperboard"  className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <MovieIcon className="shareIcon" />
+            <FontAwesomeIcon icon="fa-solid fa-clapperboard"  className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
           <div className="shareOptions">
-            <MovieIcon className="shareIcon" />
+            <FontAwesomeIcon icon="fa-solid fa-clapperboard"  className="shareIcon" />
             <span className="shareOptionText">Photo or Video</span>
           </div>
         </div>

@@ -1,10 +1,5 @@
 import "./header.css";
-import {
-  AiOutlineSearch,
-  BsFillPersonFill,
-  BsFillChatLeftTextFill,
-  IoIosNotifications,
-} from "react-icons/";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
   return (
@@ -14,7 +9,7 @@ export default function Header() {
       </div>
       <div className="headermid">
         <div className="searchbar">
-          <AiOutlineSearch />
+          <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
           <input
             type="text"
             placeholder="Search Social Media.."
@@ -29,15 +24,15 @@ export default function Header() {
         </div>
         <div className="headerIcons">
           <div className="headericonitem"></div>
-          <BsFillPersonFill />
+          <FontAwesomeIcon icon="fa-solid fa-user-large" />
           <div className="headericonbadge">1</div>
 
           <div className="headericonitem"></div>
-          <BsFillChatLeftTextFill />
+          <FontAwesomeIcon icon="fa-solid fa-comments" />
           <div className="headericonbadge">2</div>
 
           <div className="headericonitem"></div>
-          <IoIosNotifications />
+          <FontAwesomeIcon icon="fa-solid fa-bell" />
           <div className="headericonbadge">3</div>
         </div>
         <img src="assets/person/1.jpeg" alt="" className="headerimage" />
