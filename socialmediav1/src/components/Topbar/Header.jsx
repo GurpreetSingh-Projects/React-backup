@@ -23,8 +23,10 @@ export default function Header() {
           <div>Timeline</div>
         </div>
         <div className="headerIcons">
-          <div className="headericonitem"></div>
-          <FontAwesomeIcon icon="fa-solid fa-user-large" />
+          <div className="headericonitem">
+            <FontAwesomeIcon icon="fa-solid fa-user" />
+          </div>
+
           <div className="headericonbadge">1</div>
 
           <div className="headericonitem"></div>
