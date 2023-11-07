@@ -30,7 +30,7 @@ export default function Header() {
           <div className="headericonbadge">1</div>
 
           <div className="headericonitem"></div>
-          <FontAwesomeIcon icon="fa-solid fa-comments" />
+          <FontAwesomeIcon icon="fa-solid fa-comment-dots" />
           <div className="headericonbadge">2</div>
 
           <div className="headericonitem"></div>

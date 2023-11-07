@@ -12,7 +12,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <FontAwesomeIcon
-              icon="fa-solid fa-comments"
+              icon="fa-regular fa-comment-dots"
               className="sidebarIcon"
             />
             <span className="sidebarListItemText">Chats</span>
