@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="headercontainer">
       <div className="headerleft">
-        <span className="logo">Social Media</span>
+        <span className="social_logo">Social Media</span>
       </div>
       <div className="headermid">
         <div className="searchbar">
