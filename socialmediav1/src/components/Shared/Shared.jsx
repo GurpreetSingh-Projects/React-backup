@@ -1,5 +1,4 @@
 import "./Shared.css";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Shared() {
   return (
@@ -20,7 +19,7 @@ export default function Shared() {
               icon="fa-solid fa-clapperboard"
               className="shareIcon1"
             />
-            <span className="shareOptionText">Photo or Video</span>
+            <span className="shareOptionText">Photo/Video</span>
           </div>
 
           <div className="shareOptions">
@@ -40,8 +39,8 @@ export default function Shared() {
               className="shareIcon4"
             />
             <span className="shareOptionText">Feelings</span>
-            <button className="shareButton">Share</button>
           </div>
+          <button className="shareButton">Share</button>
         </div>
       </div>
     </div>

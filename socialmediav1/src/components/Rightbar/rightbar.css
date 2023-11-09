@@ -1,5 +1,5 @@
-.rightbar{
-    display: flex;
-    flex: 25%;
-    height: 100%;
+.rightbar {
+  display: flex;
+  flex: 5%;
+  height: 100vh;
 }

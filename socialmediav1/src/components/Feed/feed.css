@@ -6,7 +6,7 @@
 .feed {
   display: flex;
   flex: 25%;
-  height: 100%;
+  height: 100vh;
 }
 .feedWrapper {
   padding: 20px;
