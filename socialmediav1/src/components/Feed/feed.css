@@ -3,11 +3,11 @@
   border: 0;
   list-style: none;
 }
-.feed{
-    display: flex;
-    flex: 25%;
-    height: 100%;
+.feed {
+  display: flex;
+  flex: 25%;
+  height: 100%;
 }
-.feedWrapper{
-    padding: 20px;
+.feedWrapper {
+  padding: 20px;
 }
