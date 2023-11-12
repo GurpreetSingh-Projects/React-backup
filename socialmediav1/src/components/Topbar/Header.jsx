@@ -24,17 +24,27 @@ export default function Header() {
         </div>
         <div className="headerIcons">
           <div className="headericonitem">
-            <FontAwesomeIcon icon="fa-solid fa-user" />
+            <FontAwesomeIcon
+              icon="fa-solid fa-user"
+              style={{ height: 20, width: 20 }}
+            />
           </div>
 
-          <div className="headericonbadge">1</div>
-
+          <div className="headericonbadge" style={{ marginLeft: -8 }}>
+            1
+          </div>
           <div className="headericonitem"></div>
-          <FontAwesomeIcon icon="fa-solid fa-comment-dots" />
+          <FontAwesomeIcon
+            icon="fa-solid fa-comment-dots"
+            style={{ height: 20, width: 20 }}
+          />
           <div className="headericonbadge">2</div>
 
           <div className="headericonitem"></div>
-          <FontAwesomeIcon icon="fa-solid fa-bell" />
+          <FontAwesomeIcon
+            icon="fa-solid fa-bell"
+            style={{ height: 20, width: 20 }}
+          />
           <div className="headericonbadge">3</div>
         </div>
         <img src="assets/person/1.jpeg" alt="" className="headerimage" />
