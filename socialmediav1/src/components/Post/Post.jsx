@@ -1,6 +1,8 @@
 import "./Post.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-export default function Post() {
+import { Users } from "../../dummyData.js";
+export default function Post({ post }) {
+  console.log(post);
   return (
     <div className="post">
       <div className="postWrapper">
@@ -11,25 +13,25 @@ export default function Post() {
               alt=""
               className="postProfileImg"
             />
-            <span className="postUsername">Gurpreet Singh</span>
-            <span className="postDate">12 mins ago</span>
+            <span className="postUsername">Gurpreet</span>
+            <span className="postDate">{post.date}</span>
           </div>
           <div className="postTopRight">
             <FontAwesomeIcon icon="fa-solid fa-ellipsis-vertical" />
           </div>
         </div>
         <div className="postCenter">
-          <span className="postText">My First Post</span>
-          <img className="postImg" src="assets/post/1.jpeg" alt="" />
+          <span className="postText">{post?.desc}</span>
+          <img className="postImg" src={post.photo} alt="" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
             <img className="likeIcon" src="assets/like.png" alt="" />
             <img className="likeIcon" src="assets/heart.png" alt="" />
-            <span className="postLikeCounter">57 people like it</span>
+            <span className="postLikeCounter">{post.like} people like it</span>
           </div>
           <div className="postBottomRight">
-            <span className="postCommentText">21 comments</span>
+            <span className="postCommentText">{post.comment} comments</span>
           </div>
         </div>
       </div>
