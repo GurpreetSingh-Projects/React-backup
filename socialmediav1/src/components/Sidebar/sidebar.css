@@ -6,8 +6,9 @@
 }
 .sidebar {
   display: flex;
+  position: sticky;
+  bottom: 0px;
   flex: 20%;
-  height: 100vh;
   overflow-y: scroll;
 }
 
@@ -16,6 +17,7 @@
 }
 ::-webkit-scrollbar {
   width: 5px;
+  position: sticky;
 }
 ::-webkit-scrollbar-thumb {
   background-color: rgb(190, 190, 190);
@@ -26,6 +28,7 @@
 
 .sidebarList {
   list-style: none;
+  position: sticky;
 }
 .sidebarListItem {
   display: grid;
